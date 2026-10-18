@@ -91,15 +91,50 @@ class _DetailsParser(HTMLParser):
             section.body = self.text[section.body_start:self._offset()]
 
 
+def _mask_markdown_code(text: str) -> str:
+    # Keep source offsets and newlines intact while hiding code from HTML parsing.
+    lines: list[str] = []
+    fence = ""
+    for line in text.splitlines(keepends=True):
+        is_code = bool(fence)
+        if fence:
+            if re.fullmatch(
+                rf" {{0,3}}{re.escape(fence[0])}{{{len(fence)},}}[ \t]*",
+                line.rstrip("\r\n"),
+            ):
+                fence = ""
+        else:
+            opening = re.match(r" {0,3}(`{3,}|~{3,})([^\r\n]*)", line)
+            if opening and (opening[1][0] != "`" or "`" not in opening[2]):
+                fence = opening[1]
+                is_code = True
+        lines.append(re.sub(r"[^\r\n]", " ", line) if is_code else line)
+    return re.sub(
+        r"\\[^\r\n]|(?<!`)(`+)(?!`)"
+        r"(?:(?!\n[ \t]*\r?\n).)*?(?<!`)\1(?!`)",
+        lambda match: (
+            re.sub(r"[^\r\n]", " ", match[0]) if match[1] else match[0]
+        ),
+        "".join(lines),
+        flags=re.S,
+    )
+
+
 def _summary_text(value: str) -> str:
-    return html.unescape(re.sub(r"<[^>]*>", "", value)).strip()
+    parts: list[str] = []
+    start = 0
+    for tag in re.finditer(r"<[^>]*>", _mask_markdown_code(value)):
+        parts.append(value[start:tag.start()])
+        start = tag.end()
+    parts.append(value[start:])
+    return html.unescape("".join(parts)).strip()
 
 
 def _parse_findings(review: Review) -> tuple[CopilotSummaryFinding, ...]:
     if "previously missed" not in review.body.lower():
         return ()
     parser = _DetailsParser(review.body)
-    parser.feed(review.body)
+    parser.feed(_mask_markdown_code(review.body))
     parser.close()
     if parser.stack:
         raise ValueError(f"Copilot review {review.database_id} has unclosed details")

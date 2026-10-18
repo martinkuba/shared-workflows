@@ -184,8 +184,9 @@ manual reviewer handoffs block requests; pending checks do not.
 Copilot sometimes reports "previously missed" findings only inside a collapsed
 review summary. The dashboard copies findings from the latest overview of the
 current head into review threads under the dashboard app, preserving their
-wording and severity and linking to the original review. When the reported line
-is not available in the PR diff, it creates a file-level review comment instead.
+wording, severity, and Markdown code examples and linking to the original review.
+When the reported line is not available in the PR diff, it creates a file-level
+review comment instead.
 Authors can reply to discuss or reject a finding and resolve the conversation
 when it no longer needs attention.
 

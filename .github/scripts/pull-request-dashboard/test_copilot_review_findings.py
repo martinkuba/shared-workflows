@@ -126,6 +126,63 @@ class CopilotSummaryFindingsTest(unittest.TestCase):
 
         self.assertEqual("Restrict parsing to host & port", finding.title)
 
+    def test_structural_tags_in_title_code_spans_are_preserved(self) -> None:
+        for title in ("Close the `<details>` element", "Keep `</summary>` literal"):
+            with self.subTest(title=title):
+                review = missed_review(body=overview(FINDING.replace(
+                    "Restrict parsing to authority", title,
+                )))
+
+                finding, = pending_copilot_summary_findings((review,), HEAD, ())
+
+                self.assertEqual(title, finding.title)
+                self.assertIn(f"**{title}**", finding.comment_body())
+
+    def test_structural_tags_in_code_spans_preserve_the_finding(self) -> None:
+        examples = (
+            "`<details>`", "`</details>`", "`<summary>`", "`</summary>`",
+            "``a `<details>` example``", "``a `</details>` example``",
+            "`an example\nwith <details>\nacross lines`",
+        )
+        for example in examples:
+            with self.subTest(example=example):
+                explanation = f"Close the {example} element.\n\nKeep this explanation."
+                review = missed_review(body=overview(FINDING.replace(
+                    "Keep the helper input inside the authority.", explanation,
+                )))
+
+                finding, = pending_copilot_summary_findings((review,), HEAD, ())
+
+                self.assertEqual(
+                    "[General] The parser searches the database path and query too.\n\n"
+                    + explanation,
+                    finding.body,
+                )
+                self.assertIn(explanation, finding.comment_body())
+
+    def test_structural_tags_in_fenced_code_preserve_the_finding(self) -> None:
+        for opening, closing in (
+            ("```html", "```"), ("~~~html", "~~~~"), ("````html", "`````"),
+        ):
+            for tag in ("<details>", "</details>", "<summary>", "</summary>"):
+                with self.subTest(opening=opening, tag=tag):
+                    explanation = (
+                        f"An example:\n\n{opening}\n{tag}\n{closing}\n\n"
+                        "Keep this explanation."
+                    )
+                    review = missed_review(body=overview(FINDING.replace(
+                        "Keep the helper input inside the authority.", explanation,
+                    )))
+
+                    finding, = pending_copilot_summary_findings((review,), HEAD, ())
+
+                    self.assertEqual(
+                        "[General] The parser searches the database path and query too.\n\n"
+                        + explanation,
+                        finding.body,
+                    )
+                    self.assertIn(explanation, finding.comment_body())
+
     def test_uses_only_the_latest_current_head_copilot_overview(self) -> None:
         old = missed_review()
         clean = replace(
@@ -348,7 +405,10 @@ class CopilotSummaryFindingEvaluationTest(unittest.IsolatedAsyncioTestCase):
     async def test_summary_only_findings_hold_the_gate_until_the_copy_is_resolved(
         self, fetch_source,
     ) -> None:
-        review = missed_review()
+        review = missed_review(body=overview(FINDING.replace(
+            "Keep the helper input inside the authority.",
+            "Close the `<details>` element; keep `</details>` literal.",
+        )))
         finding, = pending_copilot_summary_findings((review,), HEAD, ())
         config = PullRequestEvaluationConfig(
             repo="owner/repo",
