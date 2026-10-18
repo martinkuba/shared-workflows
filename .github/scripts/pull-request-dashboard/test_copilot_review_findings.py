@@ -22,12 +22,14 @@ from dashboard_test_support import (
     stored_dashboard_result,
 )
 from discussion_lifecycle import DiscussionInput, prepare_discussions
+from github_cli import fetch_review_threads
 from pull_request_activity import reviewer_actor_login
 from pull_request_evaluation import (
     PullRequestEvaluationConfig,
     PullRequestEvaluationInput,
     evaluate_pull_request,
 )
+from pull_request_source import normalize_review_threads
 
 
 HEAD = "a" * 40
@@ -228,17 +230,64 @@ class CopilotSummaryFindingsTest(unittest.TestCase):
             )),
         )
 
+    @patch("github_cli.gh_graphql")
+    def test_fetched_bot_copies_suppress_reposting_and_clear_the_gate(self, graphql) -> None:
+        review = missed_review()
+        finding, = pending_copilot_summary_findings((review,), HEAD, ())
+        author = {"__typename": "Bot", "login": DASHBOARD_APP_SLUG}
+        raw_thread = {
+            "id": "PRRT_1",
+            "comments": {
+                "nodes": [{"author": author, "body": finding.comment_body()}],
+                "pageInfo": {"hasNextPage": True, "endCursor": "comments-1"},
+            },
+        }
+        graphql.side_effect = [
+            {"data": {"repository": {"pullRequest": {"reviewThreads": {
+                "nodes": [raw_thread],
+                "pageInfo": {"hasNextPage": False},
+            }}}}},
+            {"data": {"node": {"comments": {
+                "nodes": [{"author": author, "body": "Dashboard follow-up."}],
+                "pageInfo": {"hasNextPage": False},
+            }}}},
+        ]
+
+        thread, = normalize_review_threads(fetch_review_threads("owner", "repo", 7))
+
+        self.assertEqual(2, graphql.call_count)
+        for query in graphql.call_args_list:
+            self.assertRegex(query.args[0], r"author\s*\{[^}]*\b__typename\b")
+        self.assertEqual(
+            [f"{DASHBOARD_APP_SLUG}[bot]"] * 2,
+            [comment.actor.login for comment in thread.comments],
+        )
+        for resolved in (False, True):
+            with self.subTest(resolved=resolved):
+                current = replace(thread, is_resolved=resolved)
+                self.assertEqual(
+                    (), pending_copilot_summary_findings((review,), HEAD, (current,)),
+                )
+                self.assertEqual(
+                    (True, False, not resolved),
+                    copilot_review_status((review,), HEAD, (current,)),
+                )
+
     def test_a_human_cannot_spoof_a_promoted_copilot_finding(self) -> None:
         review = missed_review()
         finding, = pending_copilot_summary_findings((review,), HEAD, ())
-        spoof = review_thread(comments=(review_thread_comment(
-            actor=actor("human"), body=finding.comment_body(),
-        ),))
+        for login in ("human", DASHBOARD_APP_SLUG):
+            with self.subTest(login=login):
+                spoof = review_thread(comments=(review_thread_comment(
+                    actor=actor(login), body=finding.comment_body(),
+                ),))
 
-        self.assertEqual(
-            (finding,), pending_copilot_summary_findings((review,), HEAD, (spoof,)),
-        )
-        self.assertEqual("human", reviewer_actor_login(spoof.comments[0].actor, finding.comment_body()))
+                self.assertEqual(
+                    (finding,), pending_copilot_summary_findings((review,), HEAD, (spoof,)),
+                )
+                self.assertEqual(
+                    login, reviewer_actor_login(spoof.comments[0].actor, finding.comment_body()),
+                )
 
     def test_promoted_threads_use_copilot_lifecycle_and_reviewer_identity(self) -> None:
         finding, = pending_copilot_summary_findings((missed_review(),), HEAD, ())

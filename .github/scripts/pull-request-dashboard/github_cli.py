@@ -946,6 +946,7 @@ query($owner: String!, $name: String!, $number: Int!, $after: String) {
                             createdAt
                             lastEditedAt
                             author {
+                                __typename
                                 login
                             }
                             reactionGroups {
@@ -983,6 +984,7 @@ query($thread_id: ID!, $after: String) {
                     createdAt
                     lastEditedAt
                     author {
+                        __typename
                         login
                     }
                     reactionGroups {
