@@ -1,0 +1,4463 @@
+{
+  "draft_pr_numbers": [
+    96,
+    350,
+    385,
+    390,
+    393,
+    445,
+    448,
+    466,
+    499,
+    542,
+    572,
+    601,
+    617
+  ],
+  "initial_backfill_complete": true,
+  "prs": {
+    "143": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "Mandark-droid",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "e5aa845574a1fb0029d28f4db9c490802a156141e82ea0eeeff8700465c8f89a",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-05-11T16:14:54+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "07ca5ec1577d6889ea2fd9bd41b3da0ba496046e",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-18T13:45:22+00:00",
+        "last_approver_activity_at": "2026-06-10T19:02:10+00:00",
+        "last_author_activity_at": "2026-10-18T13:45:22+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "Cirilla-zmh",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "9155401ccaf200a320734365e58244b58103f8baabf39420c5b2d6a720b7dbbf",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-08-12T08:18:21+00:00"
+      },
+      "failed": false,
+      "pr_number": 143,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/143",
+      "route": "approver",
+      "top_level_history": {
+        "pr-issue-comment-4424046293": {
+          "evidence": {
+            "reply": "2026-05-11T19:27:33Z"
+          },
+          "reply_source_id": 4424177817
+        },
+        "pr-issue-comment-4424654158": {
+          "evidence": {
+            "reply": "2026-06-01T12:30:40Z"
+          },
+          "reply_source_id": 4592586460
+        },
+        "pr-issue-comment-5839851788": {
+          "evidence": {
+            "reply": "2026-10-18T13:45:22Z"
+          },
+          "reply_source_id": 6250649937
+        }
+      }
+    },
+    "144": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "Mandark-droid",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "d05e7e33cfb3eaca1863ff92fb2b4a72a55171934a0973bc0cdfb55dc3cfdca1",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-05-11T16:14:59+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "1baf2721db8a1bc431b8615e8a4f28206635ca6d",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-30T00:55:40+00:00",
+        "last_approver_activity_at": "2026-06-10T19:02:08+00:00",
+        "last_author_activity_at": "2026-09-30T00:55:40+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "8c592946c0667cc7a4cadd061bd597c0b456cac78ddcefd243bd707b7b18ff94",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-09-30T00:55:40+00:00"
+      },
+      "failed": false,
+      "pr_number": 144,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/144",
+      "route": "approver",
+      "top_level_history": {
+        "pr-review-4440622392": {
+          "evidence": {
+            "reply": "2026-09-30T00:55:40Z"
+          },
+          "reply_source_id": 5901924240
+        }
+      }
+    },
+    "164": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "Jwrede",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "bfd33056811a00b67c75b10887b2d6017cd73cd1c6308ae2c288c231af2fe567",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-05-17T08:28:20+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "e32e9cf4e60e12279b5bca9d2ee3c01eeebae0cd",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-19T10:48:42+00:00",
+        "last_approver_activity_at": "2026-06-10T19:02:03+00:00",
+        "last_author_activity_at": "2026-10-19T10:48:42+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "Cirilla-zmh",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "d4f27d6319f231f01cd1665dfb1d72b62eb52f65b0aaecf9898193753e3dbac3",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-19T10:48:42+00:00"
+      },
+      "failed": false,
+      "pr_number": 164,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/164",
+      "route": "approver",
+      "top_level_history": {
+        "pr-issue-comment-4510899445": {
+          "evidence": {
+            "reply": "2026-10-19T10:48:42Z"
+          },
+          "reply_source_id": 6265460442
+        },
+        "pr-issue-comment-4660227432": {
+          "evidence": {
+            "reply": "2026-10-19T10:48:42Z"
+          },
+          "reply_source_id": 6265460442
+        }
+      }
+    },
+    "165": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "eeee2345",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/165#discussion_r3433914373",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/165#discussion_r3433914419"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "c3d6d9cc179544da9e8371ccb2a28406",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "f4772d577328d73039aa5f57754a4589ef74808b8369c9e99f95671b8fb1d335",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-05-17T23:11:10+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "eb64483e3d3e2ecc216f11721c43274c8b247564",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-08-09T07:24:32+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-08-09T07:24:32+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "2354e722f39f1aeebea9d15463f707fd9553bd3372c41fde334f9e7a11a009d4",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-08-09T07:24:24+00:00"
+      },
+      "failed": false,
+      "pr_number": 165,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/165",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "188": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "RKest",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "e97688eefd1b11b0ea53ff596b6f0e1705ddf7a028db8482cc84836acd943df9",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-05-22T12:34:34+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5994097000,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "6add4dbde0cbcdafd2a45019d94705b5161422dc",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-10-05T12:06:17Z",
+        "dashboard_top_level_feedback_cutoff": "2026-10-05T12:06:17Z",
+        "head_sha": "6add4dbde0cbcdafd2a45019d94705b5161422dc",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-05T12:06:17+00:00",
+        "last_approver_activity_at": "2026-08-27T20:56:11+00:00",
+        "last_author_activity_at": "2026-10-05T12:06:17+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "9854b1b7890965bb68e1ac529a012aebaab2c3cdb357a5591b4014594180769e",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-05T12:06:17+00:00"
+      },
+      "failed": false,
+      "pr_number": 188,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/188",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "195": {
+      "facts": {
+        "approval_count": 3,
+        "assignees": [
+          "aabmass"
+        ],
+        "author": "eternalcuriouslearner",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#discussion_r3732774797",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#discussion_r4276287917",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#discussion_r4276288032",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#discussion_r4330565892"
+        ],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#issuecomment-4651069992",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#issuecomment-4654211198",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#issuecomment-4763413140",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#issuecomment-4769602307",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#issuecomment-4769751764",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/195#issuecomment-5922332149"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "f546cea761c347ba87caa0ddcef936b2",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "4ae6aacea675869b18d2931e9c4a17fb98ea7f687bb1aa2f86a8a769c6373521",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": true,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-05-26T13:02:51+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "87d38b4e8f24d19c44a2a091831936f80bbe6a1e",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-20T21:33:35+00:00",
+        "last_approver_activity_at": "2026-10-20T21:33:35+00:00",
+        "last_author_activity_at": "2026-10-13T22:39:44+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "AgentGymLeader",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "Cirilla-zmh",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "JWinermaSplunk",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "kwisatzh",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "pwkowalski",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "steverao",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "38e9670b2246151c6c8d74d5e9a46ec9f2cf784b8cde4af13e8a17f30a38bdee",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-06-08T23:00:32+00:00"
+      },
+      "failed": false,
+      "pr_number": 195,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/195",
+      "route": "author",
+      "top_level_history": {
+        "pr-issue-comment-4654293983": {
+          "evidence": {
+            "reply": "2026-06-08T23:00:32Z"
+          },
+          "reply_source_id": 4654315168
+        },
+        "pr-issue-comment-4655350951": {
+          "evidence": {
+            "reply": "2026-07-24T02:03:58Z"
+          },
+          "reply_source_id": 5065422303
+        },
+        "pr-issue-comment-4691508884": {
+          "evidence": {
+            "reply": "2026-06-16T02:12:01Z"
+          },
+          "reply_source_id": 4691251911
+        },
+        "pr-issue-comment-4740216360": {
+          "evidence": {
+            "reply": "2026-06-18T23:42:41Z"
+          },
+          "reply_source_id": 4747023311
+        },
+        "pr-issue-comment-4748596228": {
+          "evidence": {
+            "reply": "2026-06-21T19:48:58Z"
+          },
+          "reply_source_id": 4763104692
+        },
+        "pr-review-4575438849": {
+          "evidence": {
+            "reply": "2026-07-04T12:47:47Z"
+          },
+          "reply_source_id": 4882051821
+        }
+      }
+    },
+    "238": {
+      "facts": {
+        "approval_count": 2,
+        "assignees": [],
+        "author": "Nik-Reddy",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/238#pullrequestreview-5037674024"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "635209c359b749cd8f1560814d8d9556",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "e762b52502d5b202d9848742ac6ef1beabbd08a0dcf93b3a4b4fd4c8850c8279",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-06-03T08:04:33+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "e1fd0b1058434bffde415adedf699a84046b3c4d",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-08-27T06:32:22+00:00",
+        "last_approver_activity_at": "2026-08-27T05:59:15+00:00",
+        "last_author_activity_at": "2026-08-27T06:32:22+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "MikeGoldsmith",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "1e72da41d42fa5e8c57ec01d368b0e5255e64c757065d35851edd3ab0f1ed236",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-08-27T06:32:22+00:00"
+      },
+      "failed": false,
+      "pr_number": 238,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/238",
+      "route": "author",
+      "top_level_history": {
+        "pr-issue-comment-4663851039": {
+          "evidence": {
+            "reply": "2026-06-14T07:11:51Z"
+          },
+          "reply_source_id": 4701013626
+        },
+        "pr-issue-comment-4673495481": {
+          "evidence": {
+            "reply": "2026-08-27T05:20:12Z"
+          },
+          "reply_source_id": 5434720127
+        },
+        "pr-review-4488239000": {
+          "evidence": {
+            "reply": "2026-06-14T07:11:51Z"
+          },
+          "reply_source_id": 4701013626
+        },
+        "pr-review-4559526651": {
+          "evidence": {
+            "reply": "2026-08-17T06:29:37Z"
+          },
+          "reply_source_id": 5312630013
+        }
+      }
+    },
+    "250": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "singankit",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/250#issuecomment-4673495218"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "b983d05718234c0bbe343e37d11dd4a8",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "0c33d8fbbaa3d6c3322426b31ec61fce829025beb3750951a392d4bbf58d5d53",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-06-04T21:55:38+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "957234578d98ca48df943661cea9de821ede4eb8",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-06-10T19:01:43+00:00",
+        "last_approver_activity_at": "2026-06-10T19:01:43+00:00",
+        "last_author_activity_at": "2026-06-09T03:49:04+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "MikeGoldsmith",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "94a2def12654bd98cc15af690bf308ef7a468a393c936e3f51c15ffae8569d73",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-06-10T19:01:43+00:00"
+      },
+      "failed": false,
+      "pr_number": 250,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/250",
+      "route": "author",
+      "top_level_history": {
+        "pr-review-4450055929": {
+          "evidence": {
+            "reply": "2026-06-09T01:19:28Z"
+          },
+          "reply_source_id": 4655087014
+        }
+      }
+    },
+    "252": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "singankit",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/252#discussion_r3359681639",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/252#discussion_r3380932569"
+        ],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/252#issuecomment-4644306558",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/252#issuecomment-4673494936",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/252#issuecomment-4701215720"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "d1071800b7f44cbf8ffcae3108101827",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "3a016b1bcc12322dabf59fcc4227d69199ffcf048f4980142db186d9a9df26e2",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-06-05T00:39:03+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "0bd3b3164bb826ab2f7957c9d4150bd739910739",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-06-14T08:40:14+00:00",
+        "last_approver_activity_at": "2026-06-10T19:01:41+00:00",
+        "last_author_activity_at": "2026-06-05T00:22:12+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "Cirilla-zmh",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "eternalcuriouslearner",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "Nik-Reddy",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "90771431c139e192cc0e4fb7c2769e52feacdd8d557c5d4b7603d83e93c8e420",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-06-05T00:42:48+00:00"
+      },
+      "failed": false,
+      "pr_number": 252,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/252",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "291": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "thebenignhacker",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/291#issuecomment-4810670986"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "e38157f7b74844d3bb47a82fae99981f",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "8e070da01293952e7a20a9c4f7c8a0029a574afe5a103600c6de63abb39b450d",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-06-15T18:28:37+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5204817550,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "dashboard_override_since": "2026-08-06T12:47:24Z",
+        "head_sha": "ca937476db86ddff94a91bd8851cab9faec96bf7",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-10T02:38:37+00:00",
+        "last_approver_activity_at": "2026-06-26T14:56:51+00:00",
+        "last_author_activity_at": "2026-08-19T01:18:21+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "giskard09",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "835c92929d84f2d35ce03e19642f7d37ef4de9954a15d16b2ec342b10ab73eaf",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-06-26T14:50:50+00:00"
+      },
+      "failed": false,
+      "pr_number": 291,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/291",
+      "route": "author",
+      "top_level_history": {
+        "pr-issue-comment-4712557271": {
+          "evidence": {
+            "reply": "2026-06-24T19:31:53Z"
+          },
+          "reply_source_id": 4792931397
+        },
+        "pr-issue-comment-4719844265": {
+          "evidence": {
+            "reply": "2026-06-26T13:08:48Z"
+          },
+          "reply_source_id": 4809874488
+        },
+        "pr-issue-comment-4793227957": {
+          "evidence": {
+            "reply": "2026-08-19T00:27:09Z"
+          },
+          "reply_source_id": 5335964857
+        },
+        "pr-issue-comment-4796277030": {
+          "evidence": {
+            "reply": "2026-06-26T13:08:42Z"
+          },
+          "reply_source_id": 4809873827
+        },
+        "pr-issue-comment-4799502139": {
+          "evidence": {
+            "reply": "2026-07-13T23:55:35Z"
+          },
+          "reply_source_id": 4963990407
+        },
+        "pr-issue-comment-4805424504": {
+          "evidence": {
+            "reply": "2026-06-26T13:08:42Z"
+          },
+          "reply_source_id": 4809873827
+        },
+        "pr-issue-comment-4810518804": {
+          "evidence": {
+            "reply": "2026-06-26T15:14:31Z"
+          },
+          "reply_source_id": 4810861224
+        },
+        "pr-issue-comment-4857318655": {
+          "evidence": {
+            "reply": "2026-07-02T16:43:07Z"
+          },
+          "reply_source_id": 4868124832
+        },
+        "pr-issue-comment-4868125820": {
+          "evidence": {
+            "reply": "2026-07-02T17:00:52Z"
+          },
+          "reply_source_id": 4868354788
+        },
+        "pr-issue-comment-5249361925": {
+          "evidence": {
+            "reply": "2026-08-19T00:27:09Z"
+          },
+          "reply_source_id": 5335964857
+        },
+        "pr-issue-comment-5249369265": {
+          "evidence": {
+            "reply": "2026-08-19T00:27:09Z"
+          },
+          "reply_source_id": 5335964857
+        },
+        "pr-issue-comment-5249715000": {
+          "evidence": {
+            "reply": "2026-08-19T00:27:09Z"
+          },
+          "reply_source_id": 5335964857
+        },
+        "pr-issue-comment-5333565087": {
+          "evidence": {
+            "reply": "2026-08-18T21:20:26Z"
+          },
+          "reply_source_id": 5334209321
+        },
+        "pr-review-4559593502": {
+          "evidence": {
+            "reply": "2026-06-24T19:31:53Z"
+          },
+          "reply_source_id": 4792931397
+        },
+        "pr-review-4903185475": {
+          "evidence": {
+            "reply": "2026-08-19T00:27:09Z"
+          },
+          "reply_source_id": 5335964857
+        }
+      }
+    },
+    "359": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "Mohnish-Srivats",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "576016c526e90244244aae37634eb863351b9cc1fd9bc555c5c08602b15b7254",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-07-03T01:29:48+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 6117176143,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "195d0278cca2d152eeb40a2297e767da5138b619",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-10-12T03:24:45Z",
+        "dashboard_top_level_feedback_cutoff": "2026-10-12T03:24:45Z",
+        "head_sha": "bff0a3062a5d8d92c67ba5b77716e2fb409b7903",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-20T04:19:37+00:00",
+        "last_approver_activity_at": "2026-09-01T16:52:50+00:00",
+        "last_author_activity_at": "2026-10-20T04:19:37+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "kylehounslow",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "singankit",
+            "open_thread": false,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "b08808c65efd24b6767401f5be1b280234130cbb4a028a70c537d30078bce4b7",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-12T03:09:52+00:00"
+      },
+      "failed": false,
+      "pr_number": 359,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/359",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "365": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "yyuuttaaoo",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/365#discussion_r3903599041"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "0c45cdb0398944c9a65fcfd088292082",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "00665dcaaed1b3d057ddbd34186d1c9b85874b93fa0177793b11b6c77d75b473",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-07-03T15:38:19+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5280056183,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "dashboard_override_since": "2026-08-13T11:55:25Z",
+        "head_sha": "6259b063cf7fd43343214cc6019137e064009f66",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-01T11:23:55+00:00",
+        "last_approver_activity_at": "2026-09-01T11:23:55+00:00",
+        "last_author_activity_at": "2026-09-01T11:12:59+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "alexmojaki",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "8a16a006314af12e89422b0b8d913a6c4c38e69524ff0e07a6655dcfd17f5cef",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-09-01T11:23:55+00:00"
+      },
+      "failed": false,
+      "pr_number": 365,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/365",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "370": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "grvnmttl",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/370#discussion_r3536643299",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/370#discussion_r3536643264"
+        ],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/370#issuecomment-5084744835"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "6d778ea513674f83a0e239ed5cb013e9",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "86245912ede911a1b21974a6bcbc09a7168f33fa93da56c84d653a66c7b3dfc1",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-07-07T12:59:00+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "0dc17ba906a120dd88876fee6d6bfc946267178a",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-07T01:48:48+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-09-07T01:48:48+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "2505552499",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "4e4507db7fc9a45ef5fdcaf06ee17ccebb3fdba400b543b03e48a51c870180ac",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-07-26T18:09:10+00:00"
+      },
+      "failed": false,
+      "pr_number": 370,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/370",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "381": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "Krishnachaitanyakc",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "89a274311a431ddcec55f5235bc6646e4eb324d99eb388d23bfbee4ffa661d55",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-07-15T01:18:43+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "47b9ea10b1856960931a099d3439805c4315912b",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-20T18:50:32+00:00",
+        "last_approver_activity_at": "2026-07-21T00:27:09+00:00",
+        "last_author_activity_at": "2026-10-20T18:50:32+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "10ef42e300e7dc5bdcef1ac3ae69171d435852d85afe3ade4638f3b381bfc6c6",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-20T18:47:06+00:00"
+      },
+      "failed": false,
+      "pr_number": 381,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/381",
+      "route": "approver",
+      "top_level_history": {
+        "pr-review-5569820820": {
+          "evidence": {
+            "reply": "2026-10-20T18:46:05Z"
+          },
+          "reply_source_id": 6298529302
+        }
+      }
+    },
+    "394": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "singankit",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/394#discussion_r4325733640",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/394#discussion_r4271523405"
+        ],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/394#pullrequestreview-5046831381",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/394#issuecomment-5588656542"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "6687dc54296648fb9bd1f3fc58318961",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "caf3c04059f8df862b5e0310e5675754aaebcb029a953c53acb3d59cce993dd8",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-07-23T00:36:11+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "e0bf64cb7eb2df2c984bd6c9c0778a8dca55efee",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T14:00:02+00:00",
+        "last_approver_activity_at": "2026-10-14T21:39:06+00:00",
+        "last_author_activity_at": "2026-10-20T07:36:04+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "allen-stephen",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "DylanRussell",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "c934bd5be5e8d01e54439d063d80bf227e2d9212363e24f2736ed718a20958ff",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-09-01T03:32:35+00:00"
+      },
+      "failed": false,
+      "pr_number": 394,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/394",
+      "route": "author",
+      "top_level_history": {
+        "pr-issue-comment-5498832809": {
+          "evidence": {
+            "reply": "2026-09-08T06:18:56Z"
+          },
+          "reply_source_id": 5580239526
+        },
+        "pr-review-4801878547": {
+          "evidence": {
+            "reply": "2026-08-04T07:15:47Z"
+          },
+          "reply_source_id": 5175795866
+        }
+      }
+    },
+    "417": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "jw-ond",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "78ec8924519937a7cf872fd981ffec1df58800d574efb37f4107a53f61a07291",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-07-31T17:15:29+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5178470285,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "dashboard_override_since": "2026-08-04T11:38:25Z",
+        "head_sha": "ba1e7b9ff521792c11e63ae03e0f719e86583d90",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-14T02:52:12+00:00",
+        "last_approver_activity_at": "2026-08-06T18:17:34+00:00",
+        "last_author_activity_at": "2026-09-14T02:52:12+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "01ab80833124d131c2d696d8c999cc87944c21e6dd8a8ebc2ebfaca668c23235",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-09-14T02:52:12+00:00"
+      },
+      "failed": false,
+      "pr_number": 417,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/417",
+      "route": "approver",
+      "top_level_history": {
+        "pr-issue-comment-5157100332": {
+          "evidence": {
+            "reply": "2026-08-02T10:54:31Z"
+          },
+          "reply_source_id": 5157331518
+        },
+        "pr-review-4877328638": {
+          "evidence": {
+            "reply": "2026-08-08T04:33:12Z"
+          },
+          "reply_source_id": 5224521618
+        }
+      }
+    },
+    "427": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "habibam",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "7a9adaac83724a56ced833029098fc53e1834be01f25bfbfccab17a62b875be6",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-04T03:40:10+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "4a65c1c9240676283b619b6a2540f9152ac6837f",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-20T17:06:15+00:00",
+        "last_approver_activity_at": "2026-09-08T00:23:42+00:00",
+        "last_author_activity_at": "2026-10-20T17:06:15+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "sjain700",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "128a8d1a75d8d8bee2cc8a76023bc8cd29b1dc4d75d9c99cda81e4655cf911fd",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-20T17:06:15+00:00"
+      },
+      "failed": false,
+      "pr_number": 427,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/427",
+      "route": "approver",
+      "top_level_history": {
+        "pr-issue-comment-5297194792": {
+          "evidence": {
+            "reply": "2026-10-20T17:06:15Z"
+          },
+          "reply_source_id": 6296555683
+        },
+        "pr-review-5135942446": {
+          "evidence": {
+            "reply": "2026-10-20T17:06:15Z"
+          },
+          "reply_source_id": 6296555683
+        }
+      }
+    },
+    "443": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "elang2",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/443#discussion_r4312431225"
+        ],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/443#issuecomment-6232826624"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "1f3fad2cdabf4bf09e80e8535e854491",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "050b0e94a255949a93d53ab46f0f4d667542df5563ab7e4d1160589db889441c",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-09T04:31:12+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "e4d2274ba6a9905310eab7c12b30fc6541428801",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-19T09:51:53+00:00",
+        "last_approver_activity_at": "2026-10-19T09:51:53+00:00",
+        "last_author_activity_at": "2026-10-15T04:22:23+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "alexmojaki",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "saidkaban",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "397743c20a60720959df34a9f42a1f4dc3bea48b9b07f58389914d70ddfd53c7",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-17T10:29:13+00:00"
+      },
+      "failed": false,
+      "pr_number": 443,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/443",
+      "route": "author",
+      "top_level_history": {
+        "pr-issue-comment-5232233024": {
+          "evidence": {
+            "reply": "2026-08-11T04:43:51Z"
+          },
+          "reply_source_id": 5249074637
+        },
+        "pr-issue-comment-5249082672": {
+          "evidence": {
+            "reply": "2026-08-11T04:56:43Z"
+          },
+          "reply_source_id": 5249149054
+        },
+        "pr-issue-comment-5479084007": {
+          "evidence": {
+            "reply": "2026-10-15T04:22:23Z"
+          },
+          "reply_source_id": 6184350874
+        },
+        "pr-review-4899280349": {
+          "evidence": {
+            "reply": "2026-08-11T04:17:38Z"
+          },
+          "reply_source_id": 5248928932
+        }
+      }
+    },
+    "447": {
+      "facts": {
+        "approval_count": 2,
+        "assignees": [],
+        "author": "nikhilNava",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "bd2fcdef0acb66bdefdfdee7923332e15aa4cba5925077e78a739681771ceff9",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-10T21:38:59+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5760059036,
+        "dashboard_override_cleared_by_feedback": true,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "137b08953b1e0a29fd81da73b0e475a483ad8302",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-09-21T11:53:54Z",
+        "dashboard_top_level_feedback_cutoff": "2026-09-21T11:53:54Z",
+        "head_sha": "c352b7d86ab83b82b1d35ab864f8acaf730c0e17",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T16:43:32+00:00",
+        "last_approver_activity_at": "2026-10-20T20:42:51+00:00",
+        "last_author_activity_at": "2026-10-21T16:43:32+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "alexlu4250",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "girishkvs",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": true,
+            "login": "skrawcz",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "f590e3aca05c1cc243bd3427813e6c68992a858a3d990efe3fba7aa8ecb5fb12",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-21T16:43:32+00:00"
+      },
+      "failed": false,
+      "pr_number": 447,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/447",
+      "route": "maintainer",
+      "top_level_history": {
+        "pr-issue-comment-5900928223": {
+          "evidence": {
+            "reply": "2026-09-30T16:45:54Z"
+          },
+          "reply_source_id": 5915670865
+        },
+        "pr-issue-comment-6022761277": {
+          "evidence": {
+            "reply": "2026-10-07T20:32:12Z"
+          },
+          "reply_source_id": 6046300564
+        },
+        "pr-review-5371100320": {
+          "evidence": {
+            "reply": "2026-10-07T21:16:50Z"
+          },
+          "reply_source_id": 6047024098
+        },
+        "pr-review-5498817886": {
+          "evidence": {
+            "reply": "2026-10-21T16:43:32Z"
+          },
+          "reply_source_id": 6321356454
+        }
+      }
+    },
+    "451": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "Zhuoxi2000",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "b17f7f44d15d1cfdf1d7287dcec7aaceff028eb5fe027ecbb529799479c24778",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-14T16:54:04+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5843426560,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "f0e571a636a7b080c5e030dbbfebe9a490e14bbb",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-09-26T05:11:36Z",
+        "dashboard_top_level_feedback_cutoff": "2026-09-26T05:11:36Z",
+        "head_sha": "f0e571a636a7b080c5e030dbbfebe9a490e14bbb",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-26T05:00:56+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-09-26T05:00:56+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "52356d1c85913d9d239fc149d5db00a9b41adcfefbdb241d57c95d2a088515c5",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-09-26T05:00:56+00:00"
+      },
+      "failed": false,
+      "pr_number": 451,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/451",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "454": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "danielpolimac",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/454#discussion_r3791002530",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/454#discussion_r3791002536"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "3c52292799d04fa3a8d8fa9b5dfa4918",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "51ccab796d863f61fb11db0519d827f3f7d12676aade5ec5028bec52489d834d",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-16T05:13:30+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "de056bdabb7c1b036241dd46207115de97798409",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-08-17T06:04:32+00:00",
+        "last_approver_activity_at": "2026-08-16T23:15:21+00:00",
+        "last_author_activity_at": "2026-08-17T06:04:32+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "0396c1faa86632b8c5f307ff75448caba9b6bcf3b617efaaae6162ebf73d9118",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-08-16T05:19:59+00:00"
+      },
+      "failed": false,
+      "pr_number": 454,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/454",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "458": {
+      "facts": {
+        "approval_count": 1,
+        "assignees": [],
+        "author": "danielpolimac",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "27c209724efd406c03b9b15afb5dcb67cc9bbc3ea56ff8e7705202af1f74ac37",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-18T09:30:11+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "e443930e55a2453b57976d92c02c81667c84f060",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-08-29T20:54:21+00:00",
+        "last_approver_activity_at": "2026-08-29T20:54:21+00:00",
+        "last_author_activity_at": "2026-08-29T12:55:49+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "gaxexx43-collab",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "5228636f139246a7ed52bce95a9f62dfbeebc4a926d932ece825496ace406eed",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-08-29T12:55:49+00:00"
+      },
+      "failed": false,
+      "pr_number": 458,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/458",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "475": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "DylanRussell",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "2d5691cf2d95d76cb457b871817cd2b3339339deb7f544644bc80ea9f99bfc1c",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-25T16:06:13+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "842adb0a3ca0c880bd7080e9bd8436f6bb847892",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-23T20:11:40+00:00",
+        "last_approver_activity_at": "2026-09-05T04:47:49+00:00",
+        "last_author_activity_at": "2026-09-23T20:11:40+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "649587377c5448e502cc877efb38764fbd4a13c1b3494d7a037d91209bed3b52",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-09-23T20:11:40+00:00"
+      },
+      "failed": false,
+      "pr_number": 475,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/475",
+      "route": "approver",
+      "top_level_history": {
+        "pr-issue-comment-5801497623": {
+          "evidence": {
+            "reply": "2026-09-23T20:11:40Z"
+          },
+          "reply_source_id": 5802093219
+        }
+      }
+    },
+    "478": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "SaiSandeepKantareddy",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "66fe231161d9b1779d67c58108c0042d1ebe2dc5f32ba34b8c5e9dd4f75dbf30",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-29T04:48:28+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5574779680,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "57be7b462bd0fccd0038eddc8e2a4fea32181dcf",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-09-07T19:13:47Z",
+        "dashboard_top_level_feedback_cutoff": "2026-09-07T19:13:47Z",
+        "head_sha": "57be7b462bd0fccd0038eddc8e2a4fea32181dcf",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-07T19:06:32+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-09-07T19:06:32+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "bd3799beeb4d1ae29d4c2619323403209324eb55d2d616e39cc4be06208643f0",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-09-07T19:06:32+00:00"
+      },
+      "failed": false,
+      "pr_number": 478,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/478",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "481": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "sauravbhattacharya001",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/481#discussion_r4021821423",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/481#discussion_r4021829711",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/481#discussion_r4021834011"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "2e46021e08f14ac4820354d7d027c12b",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "b01ad6f2540fb2f75c30023ed289911ba1e12d874907d0cdedd95c753ef26f57",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-30T20:15:56+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "858716539a6d7edd2aec04a2eeff5b0e06b09c1f",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-16T01:59:51+00:00",
+        "last_approver_activity_at": "2026-09-16T01:59:51+00:00",
+        "last_author_activity_at": "2026-09-02T22:29:59+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "07eab284d2aa91d852ad3d7a4091c48869daf44e37ade47e8c4bec2076230d16",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-09-16T01:56:38+00:00"
+      },
+      "failed": false,
+      "pr_number": 481,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/481",
+      "route": "author",
+      "top_level_history": {
+        "pr-issue-comment-5486476233": {
+          "evidence": {
+            "reply": "2026-09-02T22:29:59Z"
+          },
+          "reply_source_id": 5517336115
+        }
+      }
+    },
+    "483": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "Utkarsh-Sinha0",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "15d2d6a9cbfa1d53159b7cdb6d9b746625c63f373f591720f98caac96eaa17f4",
+        "copilot_review_exists": false,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": false,
+        "copilot_review_outstanding": false,
+        "copilot_review_quota_exhausted": true,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-08-31T02:55:35+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5505075899,
+        "dashboard_override_cleared_by_feedback": true,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "bd284c228205de4ebcb69a395171012e556acb96",
+        "dashboard_override_since": "2026-09-02T05:48:15Z",
+        "head_sha": "469a1e52f9e00e5af07a2bb2239802c31d0bf54f",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-15T09:23:49+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-15T09:23:49+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "841079f31528bb55bda566e16633bd3726eb51125df52e7470fe5ca225442966",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-15T09:23:49+00:00"
+      },
+      "failed": false,
+      "pr_number": 483,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/483",
+      "route": "approver",
+      "top_level_history": {
+        "pr-issue-comment-5841097113": {
+          "evidence": {
+            "reply": "2026-10-06T10:33:10Z"
+          },
+          "reply_source_id": 6011183369
+        },
+        "pr-issue-comment-6051486304": {
+          "evidence": {
+            "reply": "2026-10-10T22:46:45Z"
+          },
+          "reply_source_id": 6103000091
+        },
+        "pr-review-5452784281": {
+          "evidence": {
+            "reply": "2026-10-10T22:46:45Z"
+          },
+          "reply_source_id": 6103000091
+        }
+      }
+    },
+    "490": {
+      "facts": {
+        "approval_count": 1,
+        "assignees": [
+          "aabmass"
+        ],
+        "author": "dev404ai",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "b79d74690214408dcf741b82b459e1e3d8c20f44c9a8cf31509ddf24ed3ae3c0",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-02T05:44:46+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5993479712,
+        "dashboard_override_cleared_by_feedback": true,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "b459b5fc9ed624cee8da931424bac2aa9c14474f",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-10-05T11:25:43Z",
+        "dashboard_top_level_feedback_cutoff": "2026-10-05T11:25:43Z",
+        "head_sha": "f27f49d396428477d591c2f7ff9a601026025576",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T09:26:34+00:00",
+        "last_approver_activity_at": "2026-10-21T05:07:18+00:00",
+        "last_author_activity_at": "2026-10-21T09:26:34+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "alexmojaki",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "f3971a89f643c6ed870284cf236e78b665a32a32558e0eb6ad00a61388e84aa3",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-21T09:26:34+00:00"
+      },
+      "failed": false,
+      "pr_number": 490,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/490",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "513": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "lmolkova",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "acd1c887b8fd43589b5a41e5e14c8ef3",
+        "ci_failing_count": 1,
+        "ci_failing_since": "2026-09-13T22:42:14+00:00",
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "20167adfc96eecee632e530246424f527eaecf1061704d7cf88bddda5334dd84",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-13T21:59:03+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "98ee0d7037034567ce63a0ef80dbd72bbbd2666c",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-13T22:41:22+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-09-13T22:41:22+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "15ddafa2527c93569e9ce4af876d17c906566f39ad21b11bde7ebf2f11077ac9",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-09-13T22:41:22+00:00"
+      },
+      "failed": false,
+      "pr_number": 513,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/513",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "516": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "alebgl77",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/516#discussion_r4342761978"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "007f10315fc04082891a4848b684af7d",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "770c2a5ca585e5655d897001d63e5e36ec484261c2c5a140243efce085823510",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-14T22:17:54+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "871d60d599874340eda5e75ac5f06d29aa8ead9d",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T22:48:47+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-21T13:04:35+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "adityareddy-dev",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "7004e917c68d0a41cf5699080aefb63a198dc9152a039561711aed66b992d550",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-21T22:48:47+00:00"
+      },
+      "failed": false,
+      "pr_number": 516,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/516",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "523": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "knapg",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/523#discussion_r4034517579",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/523#discussion_r4276202056",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/523#discussion_r4276202269",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/523#discussion_r4276202493"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "faccca37ff374db4beca683ae2ed9e32",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "8f2e3698c030bacaf6550dd31ca5eb2a9dc6e0a37261fb18837de00df4749acf",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-17T07:58:34+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "5899da4de2ceb50b248d3e21880d196f3eaf34a6",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-14T21:04:49+00:00",
+        "last_approver_activity_at": "2026-10-14T21:04:49+00:00",
+        "last_author_activity_at": "2026-09-28T21:18:47+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "8a7596661312061e4ad2e95694dbbdefdc4907ca8e1d2c0a671bd555f7e9e852",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-09-21T17:22:55+00:00"
+      },
+      "failed": false,
+      "pr_number": 523,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/523",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "524": {
+      "facts": {
+        "approval_count": 2,
+        "assignees": [],
+        "author": "1aifanatic",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/524#discussion_r4277259022"
+        ],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/524#issuecomment-6154257410"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "279c2e1a43a146ef9468fd475ef371cd",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "b328b46ad25caa46ea4f7e5cc38c7b18d1324bedccd37811539b7c88640ac84e",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-18T02:56:58+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5724538028,
+        "dashboard_override_cleared_by_feedback": true,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "589c9588928798b118411b40ae71f221b4baf6d2",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-09-18T03:06:00Z",
+        "dashboard_top_level_feedback_cutoff": "2026-09-18T03:06:00Z",
+        "head_sha": "2c6a943c77a80c107a7151d7b9cb792835d1a3fc",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-14T23:11:40+00:00",
+        "last_approver_activity_at": "2026-10-14T23:11:40+00:00",
+        "last_author_activity_at": "2026-10-12T22:01:23+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "siri-varma",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "b0bbca8738b8d54dba763d9f7af8b4721ee64b59cc84aeef6c3a2984e8b372c3",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-13T20:12:01+00:00"
+      },
+      "failed": false,
+      "pr_number": 524,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/524",
+      "route": "author",
+      "top_level_history": {
+        "pr-review-5374123012": {
+          "evidence": {
+            "reply": "2026-10-03T04:35:58Z"
+          },
+          "reply_source_id": 5965576014
+        }
+      }
+    },
+    "526": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "fede-kamel",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "f1b1b3fd1ba519926f62ef98163ebab819ccea77fcb4e0a855f894c9bd7765fa",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-18T14:48:03+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5735418408,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "57d9a2957fe614b841323bb6615b9ae85ecac888",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-09-18T19:54:03Z",
+        "dashboard_top_level_feedback_cutoff": "2026-09-18T19:54:03Z",
+        "head_sha": "d9ba312ed0166b1000cc7c6e0728886a964cb953",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-22T14:27:43+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-09-22T14:27:43+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "d71f156006840108c36b5203a21c170adb0ed77345458e85c5ed7b8e09310624",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-09-22T14:27:43+00:00"
+      },
+      "failed": false,
+      "pr_number": 526,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/526",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "535": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "hippoley",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "0443d2d460609926d9bfbb50e6dff482694804143e41c70a7cbebbbb921943af",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-23T02:03:56+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "8c3f5dc2762a902badefc2acc54665001864deee",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T15:54:17+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-21T15:54:17+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "3d627071aea972e406c860e153e0f5cfff868b4775c74fb9fcd038140c609b83",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-16T01:29:40+00:00"
+      },
+      "failed": false,
+      "pr_number": 535,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/535",
+      "route": "approver",
+      "top_level_history": {
+        "pr-issue-comment-5951225963": {
+          "evidence": {
+            "reply": "2026-10-06T02:03:06Z"
+          },
+          "reply_source_id": 6007811280
+        },
+        "pr-issue-comment-6203791587": {
+          "evidence": {
+            "reply": "2026-10-16T01:29:40Z"
+          },
+          "reply_source_id": 6205951327
+        }
+      }
+    },
+    "540": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "girishkvs",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "dcc7ba2b048d2b3aab7555ca48f2f6e24bf78962b752f764d9fb1e3fbf294a61",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": false,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-24T19:53:07+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "65b27f808eb21f05e8a76db9f91af801ecf112a2",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-19T00:23:48+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-17T04:12:52+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "adityareddy-dev",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "c921a8b293929d582fbef5e55c5445c7725b2336ab0a073e93521397c143e121",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-13T22:42:02+00:00"
+      },
+      "failed": false,
+      "pr_number": 540,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/540",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "541": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "girishkvs",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/541#issuecomment-6047029537"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "811a26ca620c4dbd93c9e0f2176019f2",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "7574aa69f010c5e4ad311a4eafec73f77689d0ae254e62842aaa3d95434163ab",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": false,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-24T19:53:13+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "d01090a674dca82bc05ffcd675149c8210472c3c",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-07T21:17:09+00:00",
+        "last_approver_activity_at": "2026-10-07T21:17:09+00:00",
+        "last_author_activity_at": "2026-09-28T08:33:10+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "9dd40098ebaa20c2ad08673cde23687f9d79971111bf41df58458b4bf982b40d",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-07T21:17:09+00:00"
+      },
+      "failed": false,
+      "pr_number": 541,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/541",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "543": {
+      "facts": {
+        "approval_count": 2,
+        "assignees": [],
+        "author": "DylanRussell",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/543#discussion_r4342011526",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/543#discussion_r4342011549",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/543#discussion_r4342011560"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "6ac7ca97c22a4f73a414edd94d64b76f",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "ca8d2d3dbeaef9123ac5dcc486a63e21071bb39fc9bc14d5a7f2b72c64b97ec7",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-25T18:51:30+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "5dd5fb89083131dc29e9ca63556cb07a2a71b35d",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T21:16:34+00:00",
+        "last_approver_activity_at": "2026-10-21T21:16:34+00:00",
+        "last_author_activity_at": "2026-10-21T20:40:20+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "2cad1e1d47eede7fbad09d4c1c4648348c61f36d924fe55e8ed330d948d156eb",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-21T21:11:32+00:00"
+      },
+      "failed": false,
+      "pr_number": 543,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/543",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "546": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "luigiw",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/546#discussion_r4119686835"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "567ee77c51c740d0956b8427996647e9",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "93b6ec33ef75f2949c409ad9852bf6ea7d7458afb52b8973e37eda97f860b0e1",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-28T07:38:27+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "366a7cfc3dd5ac9a7c7d0d4c4029cecb6adfac2a",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-28T07:38:38+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-09-28T07:38:38+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "18909429a395a61848ca41cbd608528649c122dddf75274da0d2d4f651f3d29b",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-09-28T07:43:06+00:00"
+      },
+      "failed": false,
+      "pr_number": 546,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/546",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "551": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "steverao",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "f008b6d08572af4e66787774ccaebba59541cb69ddfa6e1f1f1cf0e72647497f",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-30T03:42:32+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "f6d3bf76910b41d23971117c71f70d51ce55cc6d",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-09-30T06:06:14+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-09-30T06:06:14+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "67c0ac08facc2c2d7232a82763c11eaf11248f05e98aa5ecac6216e2c4a35583",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-09-30T06:06:14+00:00"
+      },
+      "failed": false,
+      "pr_number": 551,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/551",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "552": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "steverao",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "33fb615d6b3362c46601a59b7bee91a98e93e21ce08d5bd4ff53fa718c3e82c2",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-09-30T11:06:41+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "54999dc12b2353596ea0820fa97e814fa78e758f",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-20T14:07:55+00:00",
+        "last_approver_activity_at": "2026-10-12T17:51:33+00:00",
+        "last_author_activity_at": "2026-10-20T14:07:55+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "9f21b00667c7cbdb0050eaa2902033e4cb5213bbbeedaf2d67744b1562b94730",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-20T14:07:54+00:00"
+      },
+      "failed": false,
+      "pr_number": 552,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/552",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "556": {
+      "facts": {
+        "approval_count": 1,
+        "assignees": [],
+        "author": "yannvr",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "255b05dc23c0f2940d6f73759d83647032c99344d8a60c0682b31fbe6c379948",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-01T16:10:29+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 6084124892,
+        "dashboard_override_cleared_by_feedback": true,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "ce066fb91ea1fc8a32ff9df2fac6a988119a09fe",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-10-09T15:37:29Z",
+        "dashboard_top_level_feedback_cutoff": "2026-10-09T15:37:29Z",
+        "head_sha": "b21ec2c8354abff13867aa2a095e0097ce2ae4d1",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-20T12:50:02+00:00",
+        "last_approver_activity_at": "2026-10-13T17:43:19+00:00",
+        "last_author_activity_at": "2026-10-20T12:50:02+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "a560b24ed10eaccece3861bafba7a36b6b022bbfc5e15e10d3100f190d83c3ab",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-13T14:11:39+00:00"
+      },
+      "failed": false,
+      "pr_number": 556,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/556",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "557": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "dennydenny",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/557#discussion_r4274578102",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/557#discussion_r4274578289",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/557#discussion_r4276414303"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "cb041617a30c4be29e24aa4443340e35",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "c89b4165680f0bcf251eb3e95ff9f08430eab658d508945d293717a2cb7f5418",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-01T19:15:07+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "0e098d9bef6118b36819f83ccea438fa8dba09b0",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-14T21:23:10+00:00",
+        "last_approver_activity_at": "2026-10-14T21:23:10+00:00",
+        "last_author_activity_at": "2026-10-01T19:47:22+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "6bdc3da16cd232598dddf0f9e7dfa23b1dec05c27f817c5a4130c87785ce2acf",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-14T18:17:06+00:00"
+      },
+      "failed": false,
+      "pr_number": 557,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/557",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "560": {
+      "facts": {
+        "approval_count": 1,
+        "assignees": [],
+        "author": "lmolkova",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/560#pullrequestreview-5559703939"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "95712c48936741929bf9eea5bf8b1968",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "6fc921af148aad48af827389cb6b94a591a817645eef34d19561e124c211037a",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-02T17:05:40+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "3eef7234e74d10000888e74c8c96c7993a36dd37",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-17T19:36:49+00:00",
+        "last_approver_activity_at": "2026-10-02T17:25:36+00:00",
+        "last_author_activity_at": "2026-10-10T22:28:57+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "AgentGymLeader",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": false
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "singankit",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "76ac87789c5677abf135a6a0925e0db10b6e732cd30a79d3b681c3f36dcf38ea",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-17T19:36:49+00:00"
+      },
+      "failed": false,
+      "pr_number": 560,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/560",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "561": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "nikhilNava",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "bda6dd9ee1574f8e388883a53b5ee048ce343bc367c196cd8c50b849f795a878",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-02T18:30:57+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "d8e891ceae83153c6c39821fcaa31d56674f8b87",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-07T22:01:29+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "9b4f762383335d68b0a3c4a8ee64a76c9116cc37c9bf936014af262a2503aa53",
+        "waiting_age_basis": "created",
+        "waiting_since": "2026-10-02T18:30:57+00:00"
+      },
+      "failed": false,
+      "pr_number": 561,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/561",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "562": {
+      "facts": {
+        "approval_count": 2,
+        "assignees": [],
+        "author": "lmolkova",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/562#discussion_r4320579228"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "cbaa674d7f7b4c03b8a4c7426a96b36f",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "b44180d6247986f6adf4c161bb3116334ef8328146d2130d4e0e826ec63e838c",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-02T20:29:31+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "e66ab4460c1772ada56fdbc30281083e895aef53",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T19:09:39+00:00",
+        "last_approver_activity_at": "2026-10-16T18:35:11+00:00",
+        "last_author_activity_at": "2026-10-21T18:11:50+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "felixfbecker",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "trask",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "b39ca5f9cfe6af54429a01060ec97f6c1007e472e07f0be3e7458c333ec829dc",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-21T19:09:39+00:00"
+      },
+      "failed": false,
+      "pr_number": 562,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/562",
+      "route": "author",
+      "top_level_history": {
+        "pr-review-5579707056": {
+          "evidence": {
+            "reply": "2026-10-21T18:11:50Z"
+          },
+          "reply_source_id": 6322594783
+        }
+      }
+    },
+    "563": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "1aifanatic",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "26c3a6aade0d35f3cb13e7310b8b733468ce8af82ae648005aaafae5b6dba292",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": false,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-03T03:58:13+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "026ce7b297ad332bc75fc08094e3672848fcf0cd",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-03T03:58:13+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-03T03:56:24+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "4a5c76c91b2c4f3a11297a0a0df60239f4439cc34961dcb4f772d0197c9f08ae",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-03T03:56:24+00:00"
+      },
+      "failed": false,
+      "pr_number": 563,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/563",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "564": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "1aifanatic",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "cca0654f9680ae9e743dd0bf7cb35feb447b6405e5c59c5684ed1b817ecd5d6c",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": false,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-03T04:12:37+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "72b39418bc6f30a573a63264226d5fb138d807fd",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-03T04:12:37+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-03T04:11:03+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "9d9ad73a902b1b975eb86fddc51592c413d1d7c060c38be60d63ab866a5b1f86",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-03T04:11:03+00:00"
+      },
+      "failed": false,
+      "pr_number": 564,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/564",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "565": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "1aifanatic",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "2e5e0c3c844c97a5928a1167c3c9df5e24225a9d6d451b112bbb3d1aa02ce6e5",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-03T04:38:53+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_bound_command_id": 5969012832,
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "8393e38ec8176299f32cce2818e758c817060342",
+        "dashboard_override_persistent": true,
+        "dashboard_override_since": "2026-10-03T12:09:04Z",
+        "dashboard_top_level_feedback_cutoff": "2026-10-03T12:09:04Z",
+        "head_sha": "1ede0030b53a1d6ab6bd3e3c4ce8f12dac7289a3",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-19T00:23:54+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-13T21:17:17+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "adityareddy-dev",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "9e4cd09fd9e7968cdf47f3f6ad497ea0b3e68298c70882d4a66239cc5464f1e3",
+        "waiting_age_basis": "last_author_activity",
+        "waiting_since": "2026-10-13T21:17:17+00:00"
+      },
+      "failed": false,
+      "pr_number": 565,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/565",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "566": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "app/renovate",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": false,
+        "ci_failing_count": 1,
+        "ci_failing_since": "2026-10-14T18:05:28+00:00",
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "7d9a235ee64f5de54b35e17cb56de357cad8b54f49a463d167f9c693ad17c5f7",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-04T00:40:37+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "828fa7c2659e5bc1ca6755e2eb181426454dda3f",
+        "is_draft": false,
+        "is_maintenance_bot": true,
+        "last_activity_at": "2026-10-14T18:02:34+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "245bc4132b433d289631d87b5130df684b518c1a7b1f1a4ce94830ea5cf6800d",
+        "waiting_age_basis": "created",
+        "waiting_since": "2026-10-04T00:40:37+00:00"
+      },
+      "failed": false,
+      "pr_number": 566,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/566",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "571": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "RKest",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/571#discussion_r4226266975",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/571#discussion_r4260448214",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/571#discussion_r4260448408"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "2d662d1b2990434fab61fd9ebf761331",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "6cb8c82b1034b09e7c7bf6b580c78668372cf90b92189f6981f28f525d3d8e40",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_quota_exhausted": true,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-05T17:28:35+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "7179e6694fcc1b35632e48109398cb96028c8e34",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-16T18:16:24+00:00",
+        "last_approver_activity_at": "2026-10-14T20:13:31+00:00",
+        "last_author_activity_at": "2026-10-16T18:16:24+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "krisztianfekete",
+            "open_thread": true,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": true,
+            "pending_review": true,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "00ac23a229cf14f551c526814ef065830a378613157409c5413ed9b7d4fa1293",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-09T11:59:58+00:00"
+      },
+      "failed": false,
+      "pr_number": 571,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/571",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "574": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "knapg",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/574#discussion_r4291105069",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/574#discussion_r4291105076",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/574#discussion_r4296861979",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/574#discussion_r4296869487",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/574#discussion_r4296909211",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/574#discussion_r4296933535",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/574#discussion_r4296937263",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/574#discussion_r4296993021",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/574#discussion_r4297126828"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "9dcdb575fedf42ec8a93648782cd14ae",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "732b7f073121799309c41bf70f434f5a7983d9162aba60dff05f7f8e5fbb1877",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-06T15:14:30+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "0467d7a8a2690ccfeba4497522bef7e4d76c252a",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-16T16:56:03+00:00",
+        "last_approver_activity_at": "2026-10-16T16:56:03+00:00",
+        "last_author_activity_at": "2026-10-07T21:48:32+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "DylanRussell",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "00426602c0a7c240870ffb90b0ad977bff3b0c724b60636363e740e6021a83c2",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-16T05:05:35+00:00"
+      },
+      "failed": false,
+      "pr_number": 574,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/574",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "578": {
+      "facts": {
+        "approval_count": 1,
+        "assignees": [],
+        "author": "lmolkova",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "1365c68cb6e1d0c9f2c1733ec308423652dac95e6c075c65a1839d76f76ae4c6",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-06T21:39:50+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "6e1966de3b496fc0eaa425a00c9e922952a4feae",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-18T19:40:44+00:00",
+        "last_approver_activity_at": "2026-10-14T19:45:38+00:00",
+        "last_author_activity_at": "2026-10-18T19:40:44+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "aabmass",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "f7c8a738707bdd10ab77cea159e126258900c84ceb3407d9f0bd36beef10731a",
+        "waiting_age_basis": "gate_release",
+        "waiting_since": "2026-10-18T19:41:54.080017+00:00"
+      },
+      "failed": false,
+      "pr_number": 578,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/578",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "584": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "aabmass",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/584#discussion_r4339940591",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/584#discussion_r4322427728"
+        ],
+        "author_action_top_level_feedback_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/584#pullrequestreview-5575595241"
+        ],
+        "author_can_act": true,
+        "author_nudge_episode_id": "58ffe08ff5c94c5186fbd92d8e6faede",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "72069a918a004b7ae0560ec253501a5d9bbef0a94613f5fbf280541afa36c4c0",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-08T04:19:12+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "03e1f926594abd9b9e8d69d13840427397046e43",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T19:20:37+00:00",
+        "last_approver_activity_at": "2026-10-21T17:37:52+00:00",
+        "last_author_activity_at": "2026-10-20T16:33:58+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "felixfbecker",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": true,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "neil-the-nowledgeable",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "5ed874c655a748873c3f1b411ed607bdd34759b149ca629a3138405720497a67",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-19T18:05:29+00:00"
+      },
+      "failed": false,
+      "pr_number": 584,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/584",
+      "route": "author",
+      "top_level_history": {
+        "pr-issue-comment-6278956740": {
+          "evidence": {
+            "reply": "2026-10-20T16:33:58Z"
+          },
+          "reply_source_id": 6295921007
+        }
+      }
+    },
+    "596": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "prasadovhal",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "f7c3783dbb029a13872d21c403a95ec746848480f875e17b64a10277ee2b7d61",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-13T05:01:54+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "ec843226faa02bb3c4e7902232e41fa15a78401a",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T05:01:08+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-21T05:01:08+00:00",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "6759dcc9b0733c75d096b1db80b62deea723fadc2d41503a2f608cd9712ac746",
+        "waiting_age_basis": "gate_release",
+        "waiting_since": "2026-10-21T05:11:03.961674+00:00"
+      },
+      "failed": false,
+      "pr_number": 596,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/596",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "600": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "TAOXUY",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/600#discussion_r4289160192",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/600#discussion_r4289160231",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/600#discussion_r4289160260"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "ac7d789d3c984049b2699b02223dcfe3",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "1ea933d285830ba5149f78885350e750b7b19eea6cf2b1c17d943b61f46023cd",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-15T18:27:12+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "5e5ef7480db72432c50a778170eca3dfc7bba995",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-15T23:01:14+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-15T23:01:14+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "64facb5299ee8bd4316e57f92589fae1ce0bd13867d3226b4d6cae375d5e37f9",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-15T23:05:07+00:00"
+      },
+      "failed": false,
+      "pr_number": 600,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/600",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "604": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "aikins01",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/604#discussion_r4309715634",
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/604#discussion_r4309715672"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "f721fdb8d4e34bb7938fa567924de4e7",
+        "ci_failing_count": 1,
+        "ci_failing_since": "2026-10-19T01:46:29+00:00",
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "cb9e986ddd54ad2dede2ed08d00bf13686e248725f9851d0903670aa3bfa29da",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-19T01:45:40+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "8e67731ee4e2bd0a29d300624c4924fedb1f5620",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-19T02:04:06+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-19T02:04:06+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "ed0ba59d022388d49a5e05005346d4775b6e9c93370e31b2ee0e57d799bf31c0",
+        "waiting_age_basis": "ci_failure",
+        "waiting_since": "2026-10-19T01:46:29+00:00"
+      },
+      "failed": false,
+      "pr_number": 604,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/604",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "605": {
+      "facts": {
+        "approval_count": 1,
+        "assignees": [],
+        "author": "app/renovate",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": false,
+        "ci_failing_count": 1,
+        "ci_failing_since": "2026-10-20T16:05:06+00:00",
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "d71aa51e732de0c4060b13e275a95bd07aecf5d1ac0a8fc626facb6d53d29324",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-19T02:55:43+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "6c5b54578362cd0cf9dcc66028d47c6109b9e8cb",
+        "is_draft": false,
+        "is_maintenance_bot": true,
+        "last_activity_at": "2026-10-20T16:04:10+00:00",
+        "last_approver_activity_at": "2026-10-19T17:50:26+00:00",
+        "last_author_activity_at": "",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": true,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "lmolkova",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "8f954018dc595c1ce2e976b8630bdbf12671a16ab25073192ee235fadf6e17b2",
+        "waiting_age_basis": "created",
+        "waiting_since": "2026-10-19T02:55:43+00:00"
+      },
+      "failed": false,
+      "pr_number": 605,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/605",
+      "route": "maintainer",
+      "top_level_history": {}
+    },
+    "606": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "dev404ai",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "900019c9fdd8fa3a14bdc9d6c9047c995db368f599acc862b341d5d6fe00f6bd",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": false,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": false,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-19T06:50:04+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "f40d9ff2dea88502941222f2c812e1bf47051f1e",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-20T02:16:36+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-19T06:48:27+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "adityareddy-dev",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "46791112d389880f58dfa6c518c043059a31eb4adfa16173efe2d26f4cdab878",
+        "waiting_age_basis": "gate_release",
+        "waiting_since": "2026-10-19T06:51:03.231062+00:00"
+      },
+      "failed": false,
+      "pr_number": 606,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/606",
+      "route": "approver",
+      "top_level_history": {}
+    },
+    "607": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "aikins01",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/607#discussion_r4314971574"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "7a71be81d4e44d3790330036bd13b7e8",
+        "ci_failing_count": 0,
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 1,
+        "conflicts": "yes",
+        "copilot_request_fingerprint": "f05311de33f06bc84237a51573efc10e4d1d40ad8ea5bc7931d7e0e1994aa2df",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-19T14:18:05+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "61c888667a996115ebb10e0c0ce28046811315dd",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-19T16:17:52+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-19T16:17:52+00:00",
+        "required_checks_settled": false,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "copilot-pull-request-reviewer[bot]",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "cca208fd53cca69e5ec6b24ccc27071ed317ab7836ec51099317415b7ca4e278",
+        "waiting_age_basis": "oldest_pending_thread",
+        "waiting_since": "2026-10-19T16:17:46+00:00"
+      },
+      "failed": false,
+      "pr_number": 607,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/607",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "608": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "aabmass",
+        "author_action_review_thread_urls": [
+          "https://github.com/open-telemetry/semantic-conventions-genai/pull/608#discussion_r4331077204"
+        ],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": true,
+        "author_nudge_episode_id": "d83d1c5388ec4b7f8ef1606fc2ee8330",
+        "ci_failing_count": 1,
+        "ci_failing_since": "2026-10-20T18:52:37+00:00",
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "4caaf57554a04b69a63d719991409399fe1ac5ba44b56b3a25c60f36229a7e6a",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-19T18:59:43+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "d667eb029802f9fb608f5c730b34c442c14ee226",
+        "is_draft": false,
+        "is_maintenance_bot": false,
+        "last_activity_at": "2026-10-21T19:22:13+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "2026-10-20T18:51:27+00:00",
+        "required_checks_settled": true,
+        "reviewers": [
+          {
+            "approved": false,
+            "approved_non_team": false,
+            "changes_requested": false,
+            "login": "adityareddy-dev",
+            "open_thread": true,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": true
+          },
+          {
+            "approved": false,
+            "approved_non_team": true,
+            "changes_requested": false,
+            "login": "neil-the-nowledgeable",
+            "open_thread": false,
+            "pending_review": false,
+            "top_level_feedback": false,
+            "unresolved_thread": false
+          }
+        ],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "e7654c76fb49232aca062c0f6942dfc62cf6ed83bb99e62d8205b705df610f3c",
+        "waiting_age_basis": "ci_failure",
+        "waiting_since": "2026-10-20T18:52:37+00:00"
+      },
+      "failed": false,
+      "pr_number": 608,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/608",
+      "route": "author",
+      "top_level_history": {}
+    },
+    "621": {
+      "facts": {
+        "approval_count": 0,
+        "assignees": [],
+        "author": "app/renovate",
+        "author_action_review_thread_urls": [],
+        "author_action_top_level_feedback_urls": [],
+        "author_can_act": false,
+        "ci_failing_count": 1,
+        "ci_failing_since": "2026-10-22T00:55:04+00:00",
+        "ci_maintainer_action_required_count": 0,
+        "ci_pending_count": 0,
+        "conflicts": "no",
+        "copilot_request_fingerprint": "4e332e1e72968ac3aac2215b0baa22e5e7faeff1c6fed5d002597b9537957ae4",
+        "copilot_review_exists": true,
+        "copilot_review_fallback_available": true,
+        "copilot_review_needed": true,
+        "copilot_review_outstanding": false,
+        "copilot_review_request_needed": false,
+        "copilot_review_requested": false,
+        "copilot_review_stale": true,
+        "copilot_review_unreported": false,
+        "created_at": "2026-10-21T19:09:35+00:00",
+        "dashboard_command_replies": [],
+        "dashboard_override_command_id": 0,
+        "dashboard_override_command_user": "",
+        "dashboard_override_head_sha": "",
+        "head_sha": "682af5ec05a8edcc678b44c9a975376c7aadf0c6",
+        "is_draft": false,
+        "is_maintenance_bot": true,
+        "last_activity_at": "2026-10-22T00:54:06+00:00",
+        "last_approver_activity_at": "",
+        "last_author_activity_at": "",
+        "required_checks_settled": true,
+        "reviewers": [],
+        "route_held_for_gates": false,
+        "route_hold_expired": false,
+        "routing_input_fingerprint": "39fd164aeb38bf5c490a50fe2f54288b6ccb870db97b1c4aac00f926d47000dc",
+        "waiting_age_basis": "created",
+        "waiting_since": "2026-10-21T19:09:35+00:00"
+      },
+      "failed": false,
+      "pr_number": 621,
+      "pr_url": "https://github.com/open-telemetry/semantic-conventions-genai/pull/621",
+      "route": "approver",
+      "top_level_history": {}
+    }
+  },
+  "version": 19
+}
