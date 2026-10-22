@@ -1,0 +1,11 @@
+{
+  "prs": {
+    "3871": {
+      "copilot_request_fingerprint": "edc4a6270f9048f1d221b053ac2ee3c686001c70aa949d6b3607194c3254863e",
+      "head_sha": "44be23e119e455a227045083ccd0037f5b420821",
+      "observed_at": "2026-10-22T03:24:50.807265+00:00",
+      "requested_at": ""
+    }
+  },
+  "version": 8
+}
