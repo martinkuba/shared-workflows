@@ -1,1 +1,1 @@
-github-copilot-sdk==1.0.24
+github-copilot-sdk==1.0.25
