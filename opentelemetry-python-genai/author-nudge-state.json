@@ -1,0 +1,243 @@
+{
+  "prs": {
+    "100": {
+      "completions": [
+        {
+          "completed_at": "2026-10-06T03:32:02.437103+00:00",
+          "episode_id": "e807225e75df46d69caa8f4bd69a5149",
+          "kind": "routing_changed"
+        }
+      ]
+    },
+    "102": {
+      "episode_id": "29ea3f9212e0484cbfaaa2eb2eeca81d",
+      "nudged_at": "2026-07-29T20:31:58.230364+00:00",
+      "waiting_since": "2026-07-22T19:38:35.503667+00:00"
+    },
+    "311": {
+      "completions": [
+        {
+          "completed_at": "2026-10-09T05:46:38.292198+00:00",
+          "episode_id": "d41d812ef9a643ffafd089bb73c46b10",
+          "kind": "left_author"
+        }
+      ]
+    },
+    "312": {
+      "completions": [
+        {
+          "completed_at": "2026-10-06T03:32:05.038746+00:00",
+          "episode_id": "c22f168fb89f4b69abfb06be67084d7f",
+          "kind": "routing_changed"
+        }
+      ]
+    },
+    "313": {
+      "completions": [
+        {
+          "completed_at": "2026-10-06T03:31:54.505666+00:00",
+          "episode_id": "dbf85dfeb3aa406c94b46df4593f2eaa",
+          "kind": "routing_changed"
+        }
+      ]
+    },
+    "367": {
+      "completions": [
+        {
+          "completed_at": "2026-10-01T22:12:13.118870+00:00",
+          "episode_id": "a899191f93ad4ab08f20050832adddf3",
+          "kind": "routing_changed"
+        }
+      ]
+    },
+    "373": {
+      "completions": [
+        {
+          "completed_at": "2026-10-06T03:31:55.111148+00:00",
+          "episode_id": "a2ca6f0f05b54ab9af637c0fda477459",
+          "kind": "routing_changed"
+        }
+      ]
+    },
+    "417": {
+      "completions": [
+        {
+          "completed_at": "2026-10-06T03:31:55.705669+00:00",
+          "episode_id": "0c2c22cc2b7640ceb2367f0113d10d62",
+          "kind": "routing_changed"
+        }
+      ]
+    },
+    "507": {
+      "episode_id": "0cd65295a6f24269b6eefec1e65a647c",
+      "nudged_at": "",
+      "waiting_since": "2026-10-20T20:05:37.486435+00:00"
+    },
+    "528": {
+      "episode_id": "aaa918d5a69a4ea49ad6f157f9d87380",
+      "nudged_at": "2026-09-17T06:33:30.334992+00:00",
+      "waiting_since": "2026-09-05T14:15:16.807070+00:00"
+    },
+    "617": {
+      "episode_id": "de835c37afe5458ea3b0c5659b59c0f8",
+      "nudged_at": "",
+      "waiting_since": "2026-10-16T04:28:54.663337+00:00"
+    },
+    "634": {
+      "episode_id": "8700cd08637348e3ad31517c7a031f82",
+      "head_sha": "7a8e4dec4c10e58dfec4ab63a88174725b5500e0",
+      "nudged_at": "",
+      "pending_at": "2026-10-22T03:42:47.712758+00:00",
+      "routing_input_fingerprint": "b3aac31dd865319c871edef7cb93bf9e462759b215bd6c460c722c82151b75c6",
+      "waiting_since": "2026-09-17T05:25:54.060072+00:00"
+    },
+    "640": {
+      "episode_id": "ccef8e0beec34855bc72fd8baf7da841",
+      "nudged_at": "2026-09-17T06:33:30.334992+00:00",
+      "waiting_since": "2026-09-06T02:21:44.598548+00:00"
+    },
+    "656": {
+      "episode_id": "2613395cb9d04fd38c6b9e1dd7232681",
+      "nudged_at": "",
+      "waiting_since": "2026-09-09T03:21:29.365578+00:00"
+    },
+    "672": {
+      "episode_id": "9c094e5ecb8c44e4a48e4d548670df24",
+      "nudged_at": "",
+      "waiting_since": "2026-09-10T21:22:04.630225+00:00"
+    },
+    "681": {
+      "completions": [
+        {
+          "completed_at": "2026-10-07T22:31:35.342588+00:00",
+          "episode_id": "bb96ec7455a24d129366186b04a28fd4",
+          "kind": "left_author"
+        }
+      ]
+    },
+    "719": {
+      "episode_id": "18241e6c618f46d885f85fa6303a3153",
+      "head_sha": "40d62d854bf58653324920c15fd774fa1da7d87e",
+      "nudged_at": "",
+      "pending_at": "2026-10-22T03:42:55.846669+00:00",
+      "routing_input_fingerprint": "c8ff1f18a5153077b87aac121449b1c42e4d49a47822708866aa1448d9c06a67",
+      "waiting_since": "2026-09-19T19:58:05.779599+00:00"
+    },
+    "826": {
+      "episode_id": "ee0b7ea1b85b49ad961b56bac910b11e",
+      "head_sha": "eeab12eab645f44685485b6cecacc75b98e3f52a",
+      "nudged_at": "",
+      "pending_at": "2026-10-22T03:43:15.974280+00:00",
+      "routing_input_fingerprint": "ba51a55fb18ffb59a0e869a8915fdc5803fc463c72864e7a9f61a20187f885e1",
+      "waiting_since": "2026-10-01T17:57:43.281976+00:00"
+    },
+    "836": {
+      "episode_id": "a7b91758b6334489adecdcc95913112b",
+      "nudged_at": "",
+      "waiting_since": "2026-10-22T01:42:02.059733+00:00"
+    },
+    "838": {
+      "episode_id": "759d63f7beb14028a1fc8efc4e53eb3e",
+      "head_sha": "227ea2898ef125cd1a00858c3d4eea7164c30f72",
+      "nudged_at": "",
+      "pending_at": "2026-10-22T03:43:24.035381+00:00",
+      "routing_input_fingerprint": "af463336bf21835022cb3c4251fe9d36575af97aa305e01bb88bf2eedadc1b21",
+      "waiting_since": "2026-10-11T16:59:31.924498+00:00"
+    },
+    "840": {
+      "episode_id": "ac84f551d8f34651ab80d419e4f84cad",
+      "head_sha": "0a442f86a61c8f19f8618e01dc0ac5ac385219f9",
+      "nudged_at": "",
+      "pending_at": "2026-10-22T03:43:29.640715+00:00",
+      "routing_input_fingerprint": "2317a4d6d66fc87496f8e0eb8e5b019c8601f15e13cf4a2cc6976a76abd28fbf",
+      "waiting_since": "2026-10-09T21:00:19.331216+00:00"
+    },
+    "864": {
+      "episode_id": "99c74668c71f4b628a74a7b5b77c5e3f",
+      "head_sha": "c1e65e47ffe7a91b05368837a47940b33944910e",
+      "nudged_at": "",
+      "pending_at": "2026-10-22T03:43:40.900605+00:00",
+      "routing_input_fingerprint": "5f3f399b09cd8153bc1db5a120981fc8b7723bec5cb602a42bf3a8c21c875469",
+      "waiting_since": "2026-10-11T20:00:50.119975+00:00"
+    },
+    "871": {
+      "episode_id": "7621f749c72c45ce9473907f0a5c95fa",
+      "nudged_at": "",
+      "waiting_since": "2026-10-20T03:05:52.619875+00:00"
+    },
+    "880": {
+      "episode_id": "7db95d2a67674de2bdc287f31f7ffde2",
+      "nudged_at": "",
+      "waiting_since": "2026-10-16T00:49:09.858555+00:00"
+    },
+    "886": {
+      "episode_id": "4415150084734128a09bc6295aba3397",
+      "nudged_at": "",
+      "waiting_since": "2026-10-16T12:02:59.264776+00:00"
+    },
+    "894": {
+      "episode_id": "6b7130e81c7b4be899bef117d40b57a2",
+      "head_sha": "559f869e672f6966f52597a16a8edd534785e535",
+      "nudged_at": "",
+      "pending_at": "2026-10-22T02:59:33.251698+00:00",
+      "routing_input_fingerprint": "b87e72de98de6b493790cfefbaec0359ccc55757fcf0fc267dbf3ea34465ec09",
+      "waiting_since": "2026-10-13T18:30:26.365977+00:00"
+    },
+    "901": {
+      "episode_id": "7b72fedc1d21437bbaf90818e9617185",
+      "nudged_at": "",
+      "waiting_since": "2026-10-15T03:07:13.551913+00:00"
+    },
+    "912": {
+      "episode_id": "887e9ec44c624adeaa9284f1ca61230a",
+      "nudged_at": "",
+      "waiting_since": "2026-10-18T04:10:16.577702+00:00"
+    },
+    "914": {
+      "episode_id": "e21d42c2c5774a04ac0e0fa38f75edd5",
+      "nudged_at": "",
+      "waiting_since": "2026-10-19T12:39:10.524712+00:00"
+    },
+    "916": {
+      "episode_id": "98b2ba1b22154f7fb6bfaa4999814097",
+      "nudged_at": "",
+      "waiting_since": "2026-10-18T18:27:16.682959+00:00"
+    },
+    "919": {
+      "episode_id": "912c56f2bf9f40b69923cd0c2f060a93",
+      "nudged_at": "",
+      "waiting_since": "2026-10-20T02:02:00.419468+00:00"
+    },
+    "923": {
+      "episode_id": "3588b5929ccb4ef69c2aa8077c518fa2",
+      "nudged_at": "",
+      "waiting_since": "2026-10-19T19:55:25.826511+00:00"
+    },
+    "931": {
+      "episode_id": "11744d54b4cf4eaaa4e5ce809211d4e0",
+      "nudged_at": "",
+      "waiting_since": "2026-10-20T11:41:53.285389+00:00"
+    },
+    "934": {
+      "episode_id": "06d9c5ca792e4828b6cbb202ce4a247d",
+      "nudged_at": "",
+      "waiting_since": "2026-10-20T20:54:29.288823+00:00"
+    },
+    "943": {
+      "episode_id": "945c371ba2d44b36bbb0bd549de78a9a",
+      "nudged_at": "",
+      "waiting_since": "2026-10-21T15:36:47.551059+00:00"
+    },
+    "945": {
+      "episode_id": "52a57f3a04fe403d874ed7b4a08d3566",
+      "nudged_at": "",
+      "waiting_since": "2026-10-22T03:17:17.077186+00:00"
+    },
+    "947": {
+      "episode_id": "945a2083e4a443809260ba0cdac85dd5",
+      "nudged_at": "",
+      "waiting_since": "2026-10-22T03:27:49.207690+00:00"
+    }
+  },
+  "version": 4
+}
