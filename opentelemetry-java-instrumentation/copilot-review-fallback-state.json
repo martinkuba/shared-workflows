@@ -1,0 +1,47 @@
+{
+  "prs": {
+    "20339": {
+      "attempted_at": "2026-10-16T17:50:43.547844+00:00",
+      "exhausted": false,
+      "quota_failure_ids": [
+        5549294653
+      ]
+    },
+    "20528": {
+      "attempted_at": "2026-10-17T22:21:35.642091+00:00",
+      "exhausted": false,
+      "quota_failure_ids": [
+        5560371494
+      ]
+    },
+    "20726": {
+      "attempted_at": "2026-10-19T14:14:22.150840+00:00",
+      "exhausted": false,
+      "quota_failure_ids": [
+        5572867700
+      ]
+    },
+    "20765": {
+      "attempted_at": "2026-10-20T12:43:10.691009+00:00",
+      "exhausted": false,
+      "quota_failure_ids": [
+        5585124390
+      ]
+    },
+    "20803": {
+      "attempted_at": "2026-10-21T12:22:14.765910+00:00",
+      "exhausted": false,
+      "quota_failure_ids": [
+        5599550960
+      ]
+    },
+    "20804": {
+      "attempted_at": "2026-10-21T13:54:21.083309+00:00",
+      "exhausted": false,
+      "quota_failure_ids": [
+        5600825804
+      ]
+    }
+  },
+  "version": 1
+}
