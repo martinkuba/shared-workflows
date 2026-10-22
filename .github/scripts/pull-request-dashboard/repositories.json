@@ -152,5 +152,9 @@
       "Stale"
     ],
     "non_blocking_check_patterns": ["codecov/*"]
+  },
+  {
+    "name": "opentelemetry-browser",
+    "approver_teams": ["browser-approvers"]
   }
 ]
